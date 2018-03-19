@@ -1,0 +1,73 @@
+html, body {
+  height :100%;
+  width :100%;
+}
+
+* {
+  padding:0px;
+  margin:0px;
+}
+
+@font-face {
+    font-family: sao;
+    src: url(SAOWelcomeTT-Regular.ttf);
+}
+
+@font-face {
+    font-family: ail;
+    src: url(Ailerons-Typeface.otf);
+}
+
+
+
+body{
+  background-color: rgba(0, 0, 0, 0.86);
+}
+
+ul{
+  list-style: none;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.93);
+  width: inherit;
+  height: 140px;
+}
+
+label{
+  font-family:sao;
+  color:white;
+}
+
+.siteTitle{
+  font-family: ail;
+  color: white;
+  font-size: 50px;
+  padding-top: 35px;
+  padding-left: 10px;
+}
+
+.discussion{
+  display:flex;
+  flex-direction:column;
+  width: 60%;
+  margin-left: 20%;
+  justify-content:center;
+  align-items: center;
+  border-left-color: white;
+  border-right-color: white;
+
+}
+
+.user{
+  color:white;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top: 5px;
+  float: right;
+  font-family:sao;
+  border-radius:20px;
+  background-color: rgba(0, 0, 0, 0.93);
+}
